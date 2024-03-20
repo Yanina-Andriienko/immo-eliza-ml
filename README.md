@@ -24,7 +24,7 @@ Follow these steps to set up your project environment:
 
 - **Clone the repository**
 
-git clone (git@github.com:Yanina-Andriienko/immo-eliza-ml.git)
+git clone git@github.com:Yanina-Andriienko/immo-eliza-ml.git
 
 - **Navigate to the project directory**
 
@@ -40,15 +40,15 @@ Ensure you have `git` and `pip` installed on your system before running these co
 
 To train the model and make predictions, run the following scripts:
 
-- To preprocess the data:
+- **To preprocess the data:**
 
 python preprocessing.py
 
-- To train the model:
+- **To train the model:**
 
 python train.py
 
-- To make predictions on new data:
+- **To make predictions on new data:**
 
 python predict.py -i path/to/newdata.csv -o path/to/predictions.csv
 
