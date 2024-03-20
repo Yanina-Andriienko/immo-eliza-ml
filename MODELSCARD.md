@@ -22,8 +22,8 @@ The Random Forest model achieved an R² score of 0.72, explaining 72% of the var
 ![Feature Importances](image-1.png)  
 _Figure 1: Feature Importances of the Random Forest Model_
 
-![alt text](image-1.png)
-![alt text](image-2.png)
+![Actual vs. Predicted Values](image-2.png)
+_Comparison of Actual vs. Predicted Property Prices_
 
 ## Limitations
 
