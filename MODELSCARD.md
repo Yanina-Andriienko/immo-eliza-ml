@@ -6,14 +6,14 @@ This model was developed for Immo Eliza, a real estate company, to predict the p
 
 ## Data
 
-Input Dataset: The model was trained on a dataset comprising approximately 30554 property listings in Belgium, covering houses.
-Target Variable: The target variable for this project is price, representing the listing price of each property.
-Features: The model considers various features including the number of bedrooms, property type, location, living area size, presence of a garden or terrace, and more.
+- Input Dataset: The model was trained on a dataset comprising 30554 property listings in Belgium, covering houses.
+- Target Variable: The target variable for this project is price, representing the listing price of each property.
+- Features: The model considers various features including the number of bedrooms, property type, location, living area size, presence of a garden or terrace, and more.
 
 ## Model details
 
-Models Tested: Throughout the project, several models were evaluated including Linear Regression, Random Forest, and Polynomial Regression.
-Final Model Chosen: The final model selected for deployment is a Linear Regression model due to its simplicity, interpretability, and satisfactory performance.
+- Models Tested: Throughout the project, several models were evaluated including Linear Regression, Random Forest, and Polynomial Regression.
+- Final Model Chosen: The final model selected for deployment is a Linear Regression model due to its simplicity, interpretability, and satisfactory performance.
 
 ## Performance
 
