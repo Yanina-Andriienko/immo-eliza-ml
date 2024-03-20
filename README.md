@@ -1,5 +1,17 @@
 # Real Estate Price Prediction - Immo Eliza
 
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [Dataset](#dataset)
+3. [Dataset Features](#dataset-features)
+4. [Model](#model)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [Performance](#performance)
+8. [Limitations](#limitations)
+9. [Contributors](#contributors)
+
 ## Project Overview
 
 This project aims to predict real estate prices in Belgium using various machine learning models. The primary objective is to provide accurate price estimates for properties based on their features like location, area, number of bedrooms, etc.
@@ -28,8 +40,6 @@ The dataset used in this project contains information about real estate properti
 | `epc`                | Energy performance certificate rating of the property.              |
 | `area_total`         | The total area of the property in square meters.                    |
 
-This table provides an overview of the features available in the dataset along with a brief description for each.
-
 ## Model
 
 The project explores several machine learning models, starting with a baseline RandomForest model and experimenting with other models like Linear Regression and Polynomial regressors. The final model selection is based on performance metrics such as R² score and Mean Squared Error (MSE).
@@ -39,34 +49,22 @@ The project explores several machine learning models, starting with a baseline R
 Follow these steps to set up your project environment:
 
 - **Clone the repository**
-
-git clone git@github.com:Yanina-Andriienko/immo-eliza-ml.git
-
+  `git clone git@github.com:Yanina-Andriienko/immo-eliza-ml.git`
 - **Navigate to the project directory**
-
-cd immo-eliza-ml
-
+  `cd immo-eliza-ml`
 - **Install the required dependencies**
-
-pip install -r requirements.txt
-
-Ensure you have `git` and `pip` installed on your system before running these commands.
+  `pip install -r requirements.txt`
 
 ## Usage
 
 To train the model and make predictions, run the following scripts:
 
 - **To preprocess the data:**
-
-python preprocessing.py
-
+  `python preprocessing.py`
 - **To train the model:**
-
-python train_rf.py
-
+  `python train_rf.py`
 - **To make predictions on new data:**
-
-python predict_rf.py -i path/to/newdata.csv -o path/to/predictions.csv
+  `python predict_rf.py -i path/to/newdata.csv -o path/to/predictions.csv`
 
 ## Performance
 
