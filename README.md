@@ -20,19 +20,21 @@ The project explores several machine learning models, starting with a baseline L
 
 ## Installation
 
-To set up the project environment:
+Follow these steps to set up your project environment:
 
-1. Clone the repository
+- **Clone the repository**
 
-git clone git@github.com:Yanina-Andriienko/immo-eliza-ml.git
+git clone (git@github.com:Yanina-Andriienko/immo-eliza-ml.git)
 
-2. Navigate to the project directory
+- **Navigate to the project directory**
 
 cd immo-eliza-ml
 
-3. Install the required dependencies
+- **Install the required dependencies**
 
 pip install -r requirements.txt
+
+Ensure you have `git` and `pip` installed on your system before running these commands.
 
 ## Usage
 
