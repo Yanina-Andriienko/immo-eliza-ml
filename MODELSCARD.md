@@ -30,7 +30,7 @@ The Random Forest model achieved an R² score of 0,72 on the test set, indicatin
 ## Usage
 
 - Dependencies: Ensure all dependencies are installed as specified in requirements.txt. Key dependencies include pandas, scikit-learn, joblib, and numpy.
-- Training the Model: Run train.py to train the model. Ensure preprocessing.py is in the same directory or adjust the import path accordingly.
+- Training the Model: Run train_rf.py to train the model. Ensure preprocessing.py is in the same directory or adjust the import path accordingly.
 - Generating Predictions: Use predict_rf.py with new data to generate price predictions. The new data should follow the same structure as the training data.
 
 ## Maintainers
