@@ -32,7 +32,7 @@ This table provides an overview of the features available in the dataset along w
 
 ## Model
 
-The project explores several machine learning models, starting with a baseline Linear Regression model and experimenting with more complex models like RandomForest and Polynomial regressors. The final model selection is based on performance metrics such as R² score and Mean Squared Error (MSE).
+The project explores several machine learning models, starting with a baseline RandomForest model and experimenting with other models like Linear Regression and Polynomial regressors. The final model selection is based on performance metrics such as R² score and Mean Squared Error (MSE).
 
 ## Installation
 
@@ -62,15 +62,15 @@ python preprocessing.py
 
 - **To train the model:**
 
-python train.py
+python train_rf.py
 
 - **To make predictions on new data:**
 
-python predict.py -i path/to/newdata.csv -o path/to/predictions.csv
+python predict_rf.py -i path/to/newdata.csv -o path/to/predictions.csv
 
 ## Performance
 
-The best-performing model achieved an R² score of 0.57 on the test set, indicating that it can explain 57% of the variance in property prices.
+The best-performing model achieved an R² score of 0.72 on the test set, indicating that it can explain 72% of the variance in property prices.
 
 ## Limitations
 

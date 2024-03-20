@@ -13,12 +13,13 @@ This model was developed for Immo Eliza, a real estate company, to predict the p
 ## Model details
 
 - Models Tested: Throughout the project, several models were evaluated including Linear Regression, Random Forest, and Polynomial Regression.
-- Final Model Chosen: The final model selected for deployment is a Linear Regression model due to its simplicity, interpretability, and satisfactory performance.
+- Final Model Chosen: The final model selected for deployment is a Random Forest model due to its simplicity, interpretability, and satisfactory performance.
 
 ## Performance
 
-The Linear Regression model achieved an R² score of 0,57 on the test set, indicating that 57% of the variance in property prices can be explained by the model.
-![alt text](image.png)
+The Random Forest model achieved an R² score of 0,72 on the test set, indicating that 72% of the variance in property prices can be explained by the model.
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 ## Limitations
 
@@ -30,7 +31,7 @@ The Linear Regression model achieved an R² score of 0,57 on the test set, indic
 
 - Dependencies: Ensure all dependencies are installed as specified in requirements.txt. Key dependencies include pandas, scikit-learn, joblib, and numpy.
 - Training the Model: Run train.py to train the model. Ensure preprocessing.py is in the same directory or adjust the import path accordingly.
-- Generating Predictions: Use predict.py with new data to generate price predictions. The new data should follow the same structure as the training data.
+- Generating Predictions: Use predict_rf.py with new data to generate price predictions. The new data should follow the same structure as the training data.
 
 ## Maintainers
 
