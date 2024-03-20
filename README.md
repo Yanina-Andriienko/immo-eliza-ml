@@ -1,26 +1,26 @@
-# Real Estate Price Prediction - Immo Eliza
+# 🏡 Real Estate Price Prediction - Immo Eliza
 
-## Table of Contents
+## 📑 Table of Contents
 
-1. [Project Overview](#project-overview)
-2. [Dataset](#dataset)
-3. [Dataset Features](#dataset-features)
-4. [Model](#model)
-5. [Installation](#installation)
-6. [Usage](#usage)
-7. [Performance](#performance)
-8. [Limitations](#limitations)
-9. [Contributors](#contributors)
+1. [🔎 Project Overview](#project-overview)
+2. [📊 Dataset](#dataset)
+3. [🔢 Dataset Features](#dataset-features)
+4. [🤖 Model](#model)
+5. [🔧 Installation](#installation)
+6. [🚀 Usage](#usage)
+7. [📈 Performance](#performance)
+8. [⚠️ Limitations](#limitations)
+9. [👥 Contributors](#contributors)
 
-## Project Overview
+## 🔎 Project Overview
 
 This project aims to predict real estate prices in Belgium using various machine learning models. The primary objective is to provide accurate price estimates for properties based on their features like location, area, number of bedrooms, etc.
 
-## Dataset
+## 📊 Dataset
 
 The dataset used in this project contains information about real estate properties in Belgium, including details such as property type, location, living area, number of bedrooms, and more. It comprises around 30,000 houses.
 
-## Dataset Features
+## 🔢 Dataset Features
 
 | Feature              | Description                                                         |
 | -------------------- | ------------------------------------------------------------------- |
@@ -40,11 +40,11 @@ The dataset used in this project contains information about real estate properti
 | `epc`                | Energy performance certificate rating of the property.              |
 | `area_total`         | The total area of the property in square meters.                    |
 
-## Model
+## 🤖 Model
 
 The project explores several machine learning models, starting with a baseline RandomForest model and experimenting with other models like Linear Regression and Polynomial regressors. The final model selection is based on performance metrics such as R² score and Mean Squared Error (MSE).
 
-## Installation
+## 🔧 Installation
 
 Follow these steps to set up your project environment:
 
@@ -55,7 +55,7 @@ Follow these steps to set up your project environment:
 - **Install the required dependencies**
   `pip install -r requirements.txt`
 
-## Usage
+## 🚀 Usage
 
 To train the model and make predictions, run the following scripts:
 
@@ -66,16 +66,16 @@ To train the model and make predictions, run the following scripts:
 - **To make predictions on new data:**
   `python predict_rf.py -i path/to/newdata.csv -o path/to/predictions.csv`
 
-## Performance
+## 📈 Performance
 
 The best-performing model achieved an R² score of 0.72 on the test set, indicating that it can explain 72% of the variance in property prices.
 
-## Limitations
+## ⚠️ Limitations
 
 - The model relies heavily on the quality and comprehensiveness of the input data.
 - It does not account for market trends or economic conditions.
 - The model's predictions are specific to Belgium and may not generalize well to other regions.
 
-## Contributors
+## 👥 Contributors
 
 - [Yanina Andriienko](https://www.linkedin.com/in/yanina-andriienko-7a2984287/)
