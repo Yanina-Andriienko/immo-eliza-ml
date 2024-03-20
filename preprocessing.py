@@ -145,7 +145,7 @@ class DataPreprocessor:
                            'kitchen_surface', 'construction_year']
         self.drop_columns(columns_to_drop)
 
-        # Define your bounds/details for each column
+        # Define bounds/details for each column
         column_details = {
             'price': (40000, 1000000),  # Fixed bounds
             'living_area': (0.25, 0.75, 1.5)  # IQR method parameters

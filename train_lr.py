@@ -1,9 +1,9 @@
 from preprocessing import DataPreprocessor
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression  # Import LinearRegression
+from sklearn.linear_model import LinearRegression 
 from sklearn.metrics import mean_squared_error, r2_score
-import joblib  # For saving the model
+import joblib 
 
 
 def train_linear_regression(preprocessed_data):
@@ -49,5 +49,5 @@ if __name__ == "__main__":
     # Preprocess the data
     preprocessed_data = data_preprocessor.preprocess()
 
-    # Now, use the preprocessed_data to train your model
+    # Use the preprocessed_data to train model
     train_linear_regression(preprocessed_data)
