@@ -1,38 +1,55 @@
-# Model card
+# Model Card: Real Estate Price Prediction for Immo Eliza
 
-## Project context
+## Project Context
 
-This model was developed for Immo Eliza, a real estate company, to predict the prices of real estate properties in Belgium. The aim is to provide a tool that can estimate property values based on various features of the properties, aiding both buyers and sellers in the real estate market.
+Developed for Immo Eliza, this model aims to assist both buyers and sellers in the Belgian real estate market by predicting property values based on a range of features.
 
 ## Data
 
-- Input Dataset: The model was trained on a dataset comprising 30554 property listings in Belgium, covering houses.
-- Target Variable: The target variable for this project is price, representing the listing price of each property.
-- Features: The model considers various features including the number of bedrooms, property type, location, living area size, presence of a garden or terrace, and more.
+- **Dataset**: Trained on 30,554 property listings in Belgium, focusing on houses.
+- **Target**: Listing price of each property.
+- **Features**: Includes bedrooms, property type, location, living area, garden/terrace presence, etc.
 
-## Model details
+## Model Details
 
-- Models Tested: Throughout the project, several models were evaluated including Linear Regression, Random Forest, and Polynomial Regression.
-- Final Model Chosen: The final model selected for deployment is a Random Forest model due to its simplicity, interpretability, and satisfactory performance.
+- **Tested Models**: Linear Regression, Random Forest, Polynomial Regression.
+- **Chosen Model**: Random Forest was selected for its balance of performance and interpretability.
 
 ## Performance
 
-The Random Forest model achieved an R² score of 0,72 on the test set, indicating that 72% of the variance in property prices can be explained by the model.
+The Random Forest model achieved an R² score of 0.72, explaining 72% of the variance in property prices. This was determined to be satisfactory for the project's needs.
+
+![Feature Importances](image-1.png)  
+_Figure 1: Feature Importances of the Random Forest Model_
+
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
 ## Limitations
 
-- The model's accuracy is highly dependent on the quality and comprehensiveness of the input data. Properties with unique characteristics might not be predicted accurately.
-- The current model does not account for time-sensitive factors such as market trends or economic conditions which can affect property prices.
-- The model is trained on data from Belgium and might not generalize well to other regions.
+- **Data Quality**: Model accuracy relies heavily on data quality. Unique properties may be less accurately predicted.
+- **Time-Sensitive Factors**: Does not consider market trends or economic conditions.
+- **Region Specific**: Trained on Belgian data, which may not generalize to other regions.
 
-## Usage
+## Future Work
 
-- Dependencies: Ensure all dependencies are installed as specified in requirements.txt. Key dependencies include pandas, scikit-learn, joblib, and numpy.
-- Training the Model: Run train_rf.py to train the model. Ensure preprocessing.py is in the same directory or adjust the import path accordingly.
-- Generating Predictions: Use predict_rf.py with new data to generate price predictions. The new data should follow the same structure as the training data.
+- Explore more advanced models and feature engineering techniques.
+- Investigate the impact of including time-sensitive features on model accuracy.
+
+## Usage Guide
+
+### Dependencies
+
+Install dependencies from `requirements.txt`. Main libraries: `pandas`, `scikit-learn`, `joblib`, `numpy`.
+
+### Training the Model
+
+Run `train_rf.py` to train the model. Ensure `preprocessing.py` is accessible.
+
+### Generating Predictions
+
+Use `predict_rf.py` with new data in the same format as the training set to generate predictions.
 
 ## Maintainers
 
-- For questions, issues, or further information, please contact https://www.linkedin.com/in/yanina-andriienko-7a2984287/.
+For inquiries or further information, reach out to [Yanina Andriienko](https://www.linkedin.com/in/yanina-andriienko-7a2984287/).
