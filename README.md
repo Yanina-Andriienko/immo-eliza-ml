@@ -8,11 +8,27 @@ This project aims to predict real estate prices in Belgium using various machine
 
 The dataset used in this project contains information about real estate properties in Belgium, including details such as property type, location, living area, number of bedrooms, and more. It comprises around 30,000 houses.
 
-## Features
+## Dataset Features
 
-- `location`: Location of the property
-- `living_area`: Living area in square meters
-- (Include other features used in your model)
+| Feature              | Description                                                         |
+| -------------------- | ------------------------------------------------------------------- |
+| `district`           | The district where the property is located.                         |
+| `price`              | The price of the property in euros.                                 |
+| `state_construction` | The condition or state of the property (e.g., new, to renovate).    |
+| `living_area`        | The living area of the property in square meters.                   |
+| `bedrooms`           | The number of bedrooms in the property.                             |
+| `bathrooms`          | The number of bathrooms in the property.                            |
+| `has_garden`         | Indicates whether the property has a garden (1: Yes, 0: No).        |
+| `kitchen`            | Indicates the type of kitchen in the property (1: Yes, 0: No).      |
+| `fireplace`          | Indicates whether the property has a fireplace (1: Yes, 0: No).     |
+| `swimmingpool`       | Indicates whether the property has a swimming pool (1: Yes, 0: No). |
+| `has_terrace`        | Indicates whether the property has a terrace (1: Yes, 0: No).       |
+| `has_attic`          | Indicates whether the property has an attic (1: Yes, 0: No).        |
+| `has_basement`       | Indicates whether the property has a basement (1: Yes, 0: No).      |
+| `epc`                | Energy performance certificate rating of the property.              |
+| `area_total`         | The total area of the property in square meters.                    |
+
+This table provides an overview of the features available in the dataset along with a brief description for each.
 
 ## Model
 
